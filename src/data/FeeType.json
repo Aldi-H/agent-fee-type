@@ -1,0 +1,136 @@
+{
+  "FeeType": [
+    {
+      "feeTypeCode": "1",
+      "feeTypeName": "Test Change Value",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "feeTypeCode": "2",
+      "feeTypeName": "Reissue Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "feeTypeCode": "3",
+      "feeTypeName": "Cancellation Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "feeTypeCode": "4",
+      "feeTypeName": "Refund Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "feeTypeCode": "5",
+      "feeTypeName": "MDR Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "feeTypeCode": "6",
+      "feeTypeName": "After Office Charge",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "feeTypeCode": "7",
+      "feeTypeName": "Late Payment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "feeTypeCode": "8",
+      "feeTypeName": "Domestic Flight Fee",
+      "description": "Pembayaran penerbangan tingkat domestik",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "feeTypeCode": "9",
+      "feeTypeName": "International Flight Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "feeTypeCode": "10",
+      "feeTypeName": "Service Fee",
+      "description": "Change Description Value from edit page",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "feeTypeCode": "11",
+      "feeTypeName": "Service Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "feeTypeCode": "12",
+      "feeTypeName": "MDR Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 13,
+      "feeTypeCode": "13",
+      "feeTypeName": "Reissue Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 14,
+      "feeTypeCode": "14",
+      "feeTypeName": "Late Payment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "id": 15,
+      "feeTypeCode": "15",
+      "feeTypeName": "Domestic Flight Fee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "status": "Active"
+    },
+    {
+      "feeTypeName": "Test Fee",
+      "description": "Test Fee",
+      "feeTypeCode": "12",
+      "id": 16
+    },
+    {
+      "feeTypeName": "Fee Type Test 2",
+      "description": "Fee Type Test 2",
+      "feeTypeCode": "13",
+      "id": 17
+    },
+    {
+      "feeTypeName": "Fee Type Test 3",
+      "description": "Fee Type Test 3",
+      "feeTypeCode": "11",
+      "id": 18
+    },
+    {
+      "feeTypeCode": "13",
+      "feeTypeName": "Fee Type Test 4",
+      "description": "Fee Type Test 4",
+      "id": 19
+    },
+    {
+      "feeTypeCode": "11",
+      "feeTypeName": "Fee Type Test 5",
+      "description": "Fee Type Test 5",
+      "id": 20
+    }
+  ]
+}
