@@ -23,7 +23,6 @@ note: the index page cannot be opened because the work has not been completed an
 http://localhost:8000/fee-type-create       // Create Fee Type Page
 http://localhost:8000/fee-type-detail/:id   // Detail Fee Type by Id
 http://localhost:8000/fee-type-edit/:id     // Edit Fee Type by Id
-
 ```
 
 ## Getting Started with Create React App
