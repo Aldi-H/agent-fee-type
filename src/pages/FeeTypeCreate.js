@@ -133,13 +133,13 @@ const FeeTypeCreate = () => {
                   </Form.Group>
                 </Col>
 
-                <Col className="p-1 m-4 rounded bg-light">
+                <Col sm="5" className="p-1 m-4 rounded bg-light">
                   <Form.Group as={Row} className="m-3">
                     <h5 className="mb-4">For Interface Purpose</h5>
-                    <Form.Label column sm="4">
+                    <Form.Label column sm="5">
                       Fee Type Code
                     </Form.Label>
-                    <Col sm="8">
+                    <Col sm="7">
                       <Form.Control
                         type="text"
                         id="feeTypeCode"
