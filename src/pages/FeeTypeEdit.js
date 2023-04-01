@@ -60,6 +60,7 @@ const FeeTypeEdit = () => {
       feeTypeCode: `${feeType.feeTypeCode}`,
       feeTypeName: `${feeType.feeTypeName}`,
       description: `${feeType.description}`,
+      status: `${feeType.status}`,
     },
 
     validationSchema: inputSchema,
@@ -67,6 +68,7 @@ const FeeTypeEdit = () => {
     onSubmit: async (values) => {
       try {
         await axios.put(`http://localhost:8000/feetype/${params.id}`, values);
+        navigate("/");
       } catch (error) {
         console.log(error);
       }
