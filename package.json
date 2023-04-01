@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "json": "json-server --watch src/data/FeeType.json --port 8000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
