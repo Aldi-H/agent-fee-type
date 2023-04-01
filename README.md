@@ -9,6 +9,8 @@
 2. run this project using json server
    ```bash
    npx json-server --watch src/data/FeeType.json --port 8000
+   or
+   yarn json
    ```
 3. run react app
    ```bash
