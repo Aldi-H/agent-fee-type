@@ -36,6 +36,8 @@ const StyledBreadcrumb = styled(Breadcrumb.Item)`
 `;
 
 const FeeTypeCreate = () => {
+  const navigate = useNavigate();
+
   const inputSchema = Yup.object().shape({
     feeTypeCode: Yup.string()
       .min(1, "Too Short!")
@@ -53,6 +55,7 @@ const FeeTypeCreate = () => {
       feeTypeCode: "",
       feeTypeName: "",
       description: "",
+      status: "Active",
     },
 
     validationSchema: inputSchema,
@@ -61,13 +64,13 @@ const FeeTypeCreate = () => {
       try {
         await axios.post("http://localhost:8000/feetype", values);
         resetForm({});
+        navigate(`/`);
       } catch (error) {
         console.log(error);
       }
     },
   });
 
-  let navigate = useNavigate();
   const handleBackHomePage = () => {
     let path = `/`;
     navigate(path);
