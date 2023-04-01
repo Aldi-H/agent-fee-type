@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Agent Fee Type
+
+## How to Run This Project
+
+1. Download this project and install it using yarn to install depedencies
+   ```bash
+   yarn install
+   ```
+2. run this project using json server
+   ```bash
+   npx json-server --watch src/data/FeeType.json --port 8000
+   ```
+3. run react app
+   ```bash
+   yarn start
+   ```
+
+note: the index page cannot be opened because the work has not been completed and is close to the deadline, so open it using the url or route that is already there below
+
+## Routes Lists
+
+```
+http://localhost:8000/fee-type-create       // Create Fee Type Page
+http://localhost:8000/fee-type-detail/:id   // Detail Fee Type by Id
+http://localhost:8000/fee-type-edit/:id     // Edit Fee Type by Id
+
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
