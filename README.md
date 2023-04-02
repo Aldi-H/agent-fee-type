@@ -17,14 +17,14 @@
    yarn start
    ```
 
-note: the index page cannot be opened because the work has not been completed and is close to the deadline, so open it using the url or route that is already there below
+note: the index page work has not been completed and is close to the deadline and some function might be not running well
 
 ## Routes Lists
 
 ```
-http://localhost:8000/fee-type-create       // Create Fee Type Page
-http://localhost:8000/fee-type-detail/:id   // Detail Fee Type by Id
-http://localhost:8000/fee-type-edit/:id     // Edit Fee Type by Id
+http://localhost:8000/create      // Create Fee Type Page
+http://localhost:8000/detail/:id   // Detail Fee Type by Id
+http://localhost:8000/edit/:id     // Edit Fee Type by Id
 ```
 
 ## Getting Started with Create React App
