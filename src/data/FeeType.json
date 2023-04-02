@@ -1,12 +1,6 @@
 {
   "FeeType": [
     {
-      "feeTypeCode": "1",
-      "feeTypeName": "Test Change Value",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "id": 1
-    },
-    {
       "id": 2,
       "feeTypeCode": "2",
       "feeTypeName": "Reissue Fee",
@@ -52,6 +46,7 @@
       "feeTypeCode": "8",
       "feeTypeName": "Domestic Flight Fee",
       "description": "Pembayaran penerbangan tingkat domestik",
+      "status": "Active",
       "id": 8
     },
     {
@@ -106,31 +101,43 @@
       "feeTypeName": "Test Fee",
       "description": "Test Fee",
       "feeTypeCode": "12",
+      "status": "Active",
       "id": 16
     },
     {
       "feeTypeName": "Fee Type Test 2",
       "description": "Fee Type Test 2",
       "feeTypeCode": "13",
+      "status": "Active",
       "id": 17
     },
     {
       "feeTypeName": "Fee Type Test 3",
       "description": "Fee Type Test 3",
       "feeTypeCode": "11",
+      "status": "Active",
       "id": 18
     },
     {
       "feeTypeCode": "13",
       "feeTypeName": "Fee Type Test 4",
       "description": "Fee Type Test 4",
+      "status": "Active",
       "id": 19
     },
     {
       "feeTypeCode": "11",
       "feeTypeName": "Fee Type Test 5",
       "description": "Fee Type Test 5",
+      "status": "Active",
       "id": 20
+    },
+    {
+      "feeTypeCode": "36",
+      "feeTypeName": "Fee Type Test Add Data 1",
+      "description": "Fee Type Test Add Data 1",
+      "status": "Active",
+      "id": 23
     }
   ]
 }
