@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<FeeType />} />
-        <Route path="/fee-type-create" element={<FeeTypeCreate />} />
-        <Route path="/fee-type-detail/:id" element={<FeeTypeDetail />} />
-        <Route path="/fee-type-edit/:id" element={<FeeTypeEdit />} />
+        <Route path="/create" element={<FeeTypeCreate />} />
+        <Route path="/detail/:id" element={<FeeTypeDetail />} />
+        <Route path="/edit/:id" element={<FeeTypeEdit />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </Router>
